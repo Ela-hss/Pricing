@@ -6,3 +6,4 @@ def apply_discount(price, discount_percent):
         raise ValueError("Invalid discount")
 
     return price - (price * discount_percent / 100)
+#comment
